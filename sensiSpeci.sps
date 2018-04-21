@@ -14,9 +14,9 @@
 **** Example: sensiSpeci("BDI", "Diagnosis")
 **** In this example, we are using the Beck Depression Inventory (BDI) to predict 
 * whether or not an individual has been clinically diagnosed with depression
-* (Diagnosis). "BDI" is a continuous measure, whereas "Diagnosis" is binary
-* where a value of 0 means an individual is not depressed an a value of 1 means
-* that an individual has been clinically diagnosed as being depressed. The 
+* (Diagnosis). "BDI" is screener that is being compared to an official "Diagnosis". 
+* Both variables are dummy codes where a value of 0 means an individual 
+* is not depressed an a value of 1 means that an individual is depressed. The 
 * function would output classification statistics indicating how well the BDI was
 * able to predict the true state of depression as indicated by the clinical
 * diagnosis.
