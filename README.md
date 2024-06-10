@@ -13,6 +13,5 @@ This and other SPSS Python Extension functions can be found at http://www.stat-h
 **Example: sensiSpeci(screen = "BDI",    
 test = "Diagnosis")**
 * In this example, we are using the Beck Depression Inventory (BDI) to predict whether or not an individual has been clinically diagnosed with depression (Diagnosis).
-* "BDI" is a screener that is being used to predict "Diagnosis", which is an official result.
-* Both variables are binary where a value of 0 means an individual is not depressed and a value of 1 means that an individual is depressed.
+* "BDI" is a screener that is being used to predict "Diagnosis", which is an official result. Both variables are binary where a value of 0 means an individual is not depressed and a value of 1 means that an individual is depressed.
 * The function would output classification statistics indicating how well the BDI was able to predict the true state of depression as indicated by the clinical diagnosis.
